@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Dosis', sans-serif;
+}
+.card{
+	text-align: center;
+	padding: 40px;
+	
+}
+.card img{
+	width: 366px;	
+	position: relative;
+	left: 5px;
+	
+}
+.square{
+	background-color: #424242;
+	width: 30%;
+	height: 366px;
+	display: inline-block;
+	border: none;
+	
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 366px 145px;
+	border-color: transparent transparent #424242 transparent;
+	position: absolute;
+	top: 40px;
+	right: 647px;
+	z-index: 1;
+}
+.logo img{
+	width: 20%;
+	position: fixed;
+	top: 40px;
+	left: 288px;
+	background-color: rgba(255, 255, 72, 0.2);
+	padding: 0 53px 280px 53px;
+}
+.name #name{
+	color: whitesmoke;
+	font-size: 2.5em;
+	position: fixed;
+	top: 80px;
+	right: 310px;
+}
+.name #jr{
+	color: #FFBF00;
+	font-family: 'Kaushan Script', cursive;
+	position: fixed;
+	font-size: 1.5em;
+	top: 150px;
+	right: 310px;
+}
+.contact{
+	color: whitesmoke;
+	position: fixed;
+	top: 230px;
+	right: 410px;
+	line-height: 2px;
+}
+.logo-small img{
+	position: relative;
+	z-index: 2;
+	width: 90px;
+	height: 90px;
+	position: fixed;
+	top: 316px;
+	right: 283px;
+	line-height: 2px;
+}
